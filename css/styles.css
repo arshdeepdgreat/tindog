@@ -14,6 +14,9 @@ h2{
     line-height: 1.5;
     color: white;
 }
+.black{
+    color: black;
+}
 .container-fluid{
     padding:3% 15%;
     padding-bottom: 9%;
@@ -95,4 +98,22 @@ p{
 }
 .carousel-item{
     padding:7% 15%; ;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    .phone{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
 }
