@@ -100,7 +100,7 @@ p{
     padding:7% 15%; ;
 }
 
-#pricing{
+#pricing,#footer{
     padding: 100px;
     text-align: center;
 }
@@ -116,4 +116,21 @@ p{
     #title{
         text-align: center;
     }
+}
+
+/* cta   */
+#cta{
+    background-color: #ff4c6a;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-head{
+    font-family: "Montserrat-Black";
+
+}
+
+.social{
+    margin: 20px 10px;
+
 }
